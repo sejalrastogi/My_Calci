@@ -1,21 +1,23 @@
 body{
     display: flex;
+    justify-content: center;
     text-align: center;
     align-items: center;
     background-image: url(https://www.setaswall.com/wp-content/uploads/2019/08/Whatsapp-Wallpaper-120.jpg);
 }
 section{
+    color: yellowgreen;
+    font-weight: 200;
     font-size: 25px;
     word-spacing: 3px;
 }
 .formstyle{
     width: 240px;
     height: 100%;
-    margin-top: 100px;
-    background-color: aqua;
+    background-color: black;
+    opacity: 0.7;
     border-style: ridge ;
     border-color: beige;
-    margin-left: 600px;
 }
 input{
     width: 50px;
@@ -23,8 +25,8 @@ input{
     border-radius: 50%;
     border:none;
     outline: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 5px;
     font-size: 20px;
 }
 form .space{
@@ -45,4 +47,5 @@ input:hover{
 }
 input:active{
     font-size: 30px;
+    background-color:yellowgreen;
 }
